@@ -10,3 +10,11 @@ def get_option_chain(symbol):
         data = re.sub('(\w+):', r'"\1":', data)
         data = json.loads(data)
         return data
+        
+def generate_plot(vol_frame):
+
+    return
+    
+def calculate_implied_vol(option_chain):
+
+    return
