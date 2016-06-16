@@ -13,9 +13,15 @@ def get_option_chain(symbol):
         
 def generate_plot(vol_frame):
     
+    
     return
     
 def calculate_implied_vol(option_chain):
     option_chain = option_chain.copy()
+
+
+    return
+    
+def calculate_implied_vol(option_chain):
 
     return
