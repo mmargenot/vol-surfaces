@@ -2,13 +2,7 @@
 
 import sys
 import pandas as pd
-import requests
-import json
-import re
 from utils import get_option_chain
- 
-URL1 = 'http://www.google.com/finance/option_chain?q=%s&output=json'
-URL2 = 'http://www.google.com/finance/option_chain?q=%s&output=json&expy=%d&expm=%d&expd=%d' 
 
 def main(argv):
     """ Main function """
