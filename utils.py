@@ -79,7 +79,7 @@ def calculate_implied_vol(option_chain):
         maturity, and strike price, organized by option
         type
     """
-    option_chain = option_chain.copy()
+    local_option_chain = option_chain.copy()
 
 
     return
